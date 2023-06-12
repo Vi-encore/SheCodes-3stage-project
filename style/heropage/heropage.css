@@ -1,0 +1,49 @@
+.heropage {
+  background-image: linear-gradient(
+      90deg,
+      var(--bg-transp-color) 0%,
+      var(--bg-transp-color) 100%
+    ),
+    url(/img/heropage.jpg);
+
+  background-size: cover;
+  /* filter: blur(1.5px); */
+}
+
+.heropage__content {
+  height: 50%;
+}
+
+.heropage__header {
+  font-size: var(--h1-size);
+  color: var(--main-white);
+}
+
+.heropage__about {
+  color: var(--grey);
+  font-size: var(--p-md-size);
+}
+
+.heropage__donate-btn {
+  width: 150px;
+  font-weight: 600;
+  border: none;
+  background-color: var(--main-yellow);
+  color: var(--main-blue);
+}
+
+.heropage__donate-btn:hover {
+  background-color: #e0e271;
+}
+
+@media screen and (max-width: 576px) {
+  .heropage__header {
+    width: 100% !important;
+    font-size: var(--h3-size);
+  }
+
+  .heropage__about {
+    width: 100% !important;
+    font-size: var(--p-sm-size);
+  }
+}

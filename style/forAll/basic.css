@@ -1,0 +1,22 @@
+:root {
+  --bg-transp-color: #13181e7a;
+  --main-blue: #233658;
+  --lighter-blue: #5c7598;
+  --lightest-blue: #acb7c9;
+  --grey: #dbe2ea;
+  --main-white: #ebebed;
+  --main-yellow: #fcfe8e;
+
+  --h1-size: 64px;
+  --h2-size: 56px;
+  --h3-size: 48px;
+  --h4-size: 36px;
+  --h5-size: 22px;
+
+  --p-md-size: 16px;
+  --p-sm-size: 14px;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
