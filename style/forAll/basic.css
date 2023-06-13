@@ -1,10 +1,12 @@
 :root {
   --bg-transp-color: #13181e7a;
+  --main-black: #13181e;
   --main-blue: #233658;
   --lighter-blue: #5c7598;
   --lightest-blue: #acb7c9;
   --grey: #dbe2ea;
   --main-white: #ebebed;
+  --main-white-transp: #ffffff91;
   --main-yellow: #fcfe8e;
 
   --h1-size: 64px;

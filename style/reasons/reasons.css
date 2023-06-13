@@ -1,0 +1,53 @@
+.reasons {
+  background-color: var(--main-yellow);
+}
+
+.reasons__icon--bg {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-white-transp);
+  border-radius: 50%;
+  transition: 150ms all ease-in-out;
+}
+
+.reasons__icon i {
+  font-size: var(--h5-size);
+  color: var(--main-blue);
+  transition: 150ms all ease-in-out;
+}
+
+.reasons__icon--bg:hover {
+  background-color: var(--main-blue);
+}
+
+.reasons__icon--bg:hover i {
+  color: var(--main-white);
+}
+
+.reasons__description {
+  /* font-size: 18px; */
+  color: var(--main-black);
+}
+
+.reasons__about {
+  background-color: var(--main-white-transp);
+}
+
+.reasons__btn {
+  background-color: var(--main-blue);
+  color: var(--main-white);
+  padding: 10px 70px;
+  transition: 150ms all ease-in-out;
+}
+
+.reasons__btn:hover {
+  background-color: var(--lighter-blue);
+  color: var(--main-white);
+}
+
+.reasons__about-descr {
+  font-size: var(--p-sm-size);
+}
