@@ -1,0 +1,33 @@
+nav {
+  /* background-color: var(--lighter-blue) !important; */
+  background-color: #233658a1;
+  filter: drop-shadow(1px 1px 1px black);
+  backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+  font-weight: 800;
+  color: var(--main-white);
+}
+
+img {
+  filter: drop-shadow(2px 2px 5px var(--main-blue));
+}
+
+.nav-link,
+.nav-link.active {
+  color: var(--main-white) !important;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) saturate(100%) invert(93%) sepia(12%) saturate(25%)
+    hue-rotate(201deg) brightness(102%) contrast(89%);
+}
+
+button:focus:not(:focus-visible) {
+  color: var(--main-white);
+}
+
+.navbar-toggler {
+  border-color: var(--main-white) !important;
+}
