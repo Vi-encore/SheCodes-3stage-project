@@ -5,23 +5,31 @@ nav {
   backdrop-filter: blur(10px);
 }
 
-.navbar-brand {
+.navbar-brand,
+.navbar-brand:active {
   font-weight: 800;
-  color: var(--main-white);
-  transition: 150ms all ease-in-out;
+  color: var(--main-white) !important;
 }
 
 .navbar-brand:hover {
-  color: var(--main-black);
+  color: var(--main-yellow) !important;
 }
 
 img {
   filter: drop-shadow(2px 2px 5px var(--main-blue));
 }
 
+.nav-link {
+  font-weight: 700;
+}
+
 .nav-link,
 .nav-link.active {
   color: var(--main-white) !important;
+}
+
+.nav-link:hover {
+  color: var(--main-yellow) !important;
 }
 
 .navbar-toggler-icon {
