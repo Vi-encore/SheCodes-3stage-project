@@ -24,7 +24,7 @@
 
 .heropage__about {
   color: var(--grey);
-  font-size: var(--p-md-size);
+  font-size: var(--p-normal);
 }
 
 .heropage__donate-btn {

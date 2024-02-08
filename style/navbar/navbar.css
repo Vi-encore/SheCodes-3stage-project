@@ -1,8 +1,12 @@
 nav {
   /* background-color: var(--lighter-blue) !important; */
-  background-color: #233658a1;
+  background-color: #233658b5;
   filter: drop-shadow(1px 1px 1px black);
   backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+  text-transform: uppercase;
 }
 
 .navbar-brand,
@@ -21,6 +25,7 @@ img {
 
 .nav-link {
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .nav-link,

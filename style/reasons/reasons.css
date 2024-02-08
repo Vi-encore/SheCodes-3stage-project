@@ -28,19 +28,24 @@
 }
 
 .reasons__description {
-  /* font-size: 18px; */
+  font-size: var(--p-sm-size);
   color: var(--main-black);
 }
 
 .reasons__about {
   background-color: var(--main-white-transp);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .reasons__btn {
+  /* width: 50%; */
   background-color: var(--main-blue);
   color: var(--main-white);
   padding: 10px 70px;
   transition: 150ms all ease-in-out;
+  align-self: flex-start;
 }
 
 .reasons__btn:hover {
@@ -51,3 +56,29 @@
 .reasons__about-descr {
   font-size: var(--p-sm-size);
 }
+
+@media screen and (max-width: 575px) {
+  .reasons__about {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .reasons__description {
+    font-size: var(--p-sm-size);
+  }
+
+  .reasons__btn {
+    align-self: center;
+  }
+}
+
+/* 
+.reasons__card {
+  border: none !important;
+  display: flex;
+  align-items: space-between;
+}
+
+.reasons__img {
+  height: 150px;
+} */

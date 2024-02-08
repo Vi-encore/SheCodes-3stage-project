@@ -1,0 +1,38 @@
+.where__donate {
+  background-color: var(--lighter-blue);
+}
+
+.where__header,
+.where__subhead {
+  color: var(--main-white);
+}
+
+.where__card {
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+.where__img {
+  height: 150px;
+  filter: drop-shadow(2px 2px 7px var(--lightest-blue));
+}
+
+.where__card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.where__card-title {
+  color: var(--main-white);
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+
+.where__btn {
+  font-size: var(--p-normal);
+}

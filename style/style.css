@@ -1,4 +1,6 @@
 @import "forAll/basic.css";
+@import "navbar/navbar.css";
 @import "heropage/heropage.css";
 @import "reasons/reasons.css";
-@import "navbar/navbar.css";
+@import "whereDonate/whereDonate.css";
+@import "footer/footer.css";
