@@ -21,4 +21,9 @@
 
 * {
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+.py-md-5 {
+  padding: 5rem 0 !important;
 }

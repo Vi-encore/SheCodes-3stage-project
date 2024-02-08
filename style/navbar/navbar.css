@@ -43,4 +43,10 @@ button:focus:not(:focus-visible) {
 
 .navbar-toggler {
   border-color: var(--main-white) !important;
+  margin: 5px 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: 2px var(--main-white) solid !important;
 }
