@@ -7,10 +7,21 @@
   color: var(--main-white);
 }
 
+.where__cards {
+  overflow: hidden;
+}
+
 .where__card {
   height: 100%;
   background-color: transparent;
   border: none;
+  transition: transform 0.2s;
+  /* overflow: hidden; */
+}
+
+.where__card:hover {
+  transform: scale(1.1);
+  /* overflow: hidden; */
 }
 
 .where__img {
