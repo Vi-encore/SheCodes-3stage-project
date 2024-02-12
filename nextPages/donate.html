@@ -8,7 +8,7 @@
       name="description"
       content="Donate some money to Ukraine! Help us save our nature!"
     />
-    <link rel="shortcut icon" href="img/icon.png" />
+    <link rel="shortcut icon" href="/img/icon.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,13 +30,13 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/donate__pg/donate.css" />
     <title>Save Ukraine</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg fixed-top py-3 px-2">
       <div class="container-fluid nv">
-        <a class="navbar-brand" href="/index.html"
+        <a class="navbar-brand" title="home Page" href="/index.html"
           ><img
             src="/img/iconBig.png"
             alt="Logo"
@@ -65,22 +65,141 @@
             <li class="nav-item">
               <a
                 class="nav-link active nav-active"
+                title="HomePage"
                 aria-current="page"
                 href="/index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/nextPages/donate.html">Donation</a>
+              <a
+                class="nav-link"
+                title="Donate Page"
+                href="/nextPages/donate.html"
+                >Donation</a
+              >
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#whereDonate">Where to donate?</a>
-            </li> -->
           </ul>
         </div>
       </div>
     </nav>
-    <main></main>
+    <main>
+      <section
+        class="w-100 d-flex justify-content-start align-items-start p-5 donate__hero"
+      >
+        <div class="container pt-5 my-3 m-sm-5 donate__container">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center pt-5 donate__content"
+          >
+            <h1 class="w-75 fw-semibold text-uppercase donate__header">
+              You don't know where to donate?
+            </h1>
+            <p class="w-75 mt-2 text-align-center donate__about">
+              In times of crisis, every contribution counts. With the ongoing
+              war in Ukraine, many individuals around the world are eager to
+              support the Ukrainians in their fight for peace and stability.
+              However, knowing where to donate can be a challenge, especially
+              for those who are unfamiliar with the process. If you're looking
+              to make a difference but don't know where to start, here are list
+              of some charity foundations.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="donateMain">
+        <div
+          class="container my-4 d-flex flex-column justify-content-center align-items-center donateMain__list"
+        >
+          <div
+            class="w-100 rounded-2 p-5 my-4 d-flex flex-direction-row justify-content-between donateMain__item"
+          >
+            <div class="w-50 donateMain__containerImg">
+              <img
+                src="/img/cba-icon.svg"
+                alt="Come Pack Alive Foundation"
+                class="rounded-2 donateMain__img"
+              />
+            </div>
+            <div class="ms-5 w-50 donateMain__aboutFound">
+              <h2 class="text-uppercase donateMain__aboutHead">
+                Come Back Alive
+              </h2>
+              <p class="donateMain__aboutDescr">
+                Come Back Alive is both a charitable foundation dedicated to
+                providing competent assistance to the Ukrainian military and a
+                non-profit organization focused on security and defense sector
+                analytics, as well as implementing projects for veteran
+                rehabilitation through sports.
+              </p>
+              <a
+                href="https://savelife.in.ua/en/donate-en/"
+                title="Come Back Alive Foundation"
+                target="_blank"
+                class="mt-3 btn donateMain__aboutBtn"
+                >Donate</a
+              >
+            </div>
+          </div>
+          <div
+            class="w-100 rounded-2 p-5 my-4 d-flex flex-row-reverse justify-content-between donateMain__item"
+          >
+            <div
+              class="w-50 d-flex justify-content-end donateMain__containerImg"
+            >
+              <img
+                src="/img/prityla.svg"
+                alt="Prytula Foundation"
+                class="rounded-2 align-self-center donateMain__img"
+              />
+            </div>
+            <div class="w-50 donateMain__aboutFound">
+              <h2 class="text-uppercase donateMain__aboutHead">
+                Serhiy Prytula Charity Foundation
+              </h2>
+              <p class="donateMain__aboutDescr">
+                Serhiy Prytula Charity Foundation is focused on strengthening
+                the Defence Forces of Ukraine and providing assistance to the
+                civilians affected by russian aggression.
+              </p>
+              <a
+                href="https://prytulafoundation.org/en"
+                target="_blank"
+                title="Prytula Foundation"
+                class="mt-3 btn donateMain__aboutBtn"
+                >Donate</a
+              >
+            </div>
+          </div>
+          <div
+            class="w-100 rounded-2 p-5 my-4 d-flex flex-direction-row donateMain__item"
+          >
+            <div class="w-50 donateMain__containerImg">
+              <img
+                src="/img/u24.svg"
+                alt="UA24 Foundation"
+                class="rounded-2 donateMain__img"
+              />
+            </div>
+            <div class="ms-5 w-50 donateMain__aboutFound">
+              <h2 class="text-uppercase donateMain__aboutHead">UNITED 24</h2>
+              <p class="donateMain__aboutDescr">
+                <b>THE OFFICIAL FUNDRAISING PLATFORM OF UKRAINE</b>. The
+                platform allows one-click donations to Ukraine from anywhere.
+                Why is this so important? Because Ukraine itself knows best what
+                is needed and can deliver aid directly.
+              </p>
+              <a
+                href="https://u24.gov.ua/"
+                target="_blank"
+                title="UA24 Foundation"
+                class="mt-3 btn donateMain__aboutBtn"
+                >Donate</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer>
       <div class="footer">
         <div class="container py-4 footer__container">
@@ -90,29 +209,41 @@
               <a
                 href="https://github.com/Vi-encore/SheCodes-3stage-project"
                 class="footer__link text-decoration-none"
+                title="My GitHub Repo"
                 target="_blank"
                 >open-sourced</a
               >🌻
             </p>
             <div class="d-flex flex-row footer__socials">
               <a
-                href="https://twitter.com/vi_encore_extra"
+                href="https://www.linkedin.com/in/viktoria-matiushko/"
                 class="footer__social text-decoration-none"
                 target="_blank"
-                ><i class="fa-brands fa-twitter"></i
+                title="My LinkedIn"
+                ><i class="fa-brands fa-linkedin-in"></i
               ></a>
               <a
                 href="https://github.com/Vi-encore"
                 class="footer__social text-decoration-none"
                 target="_blank"
+                title="My GutHub"
                 ><i class="fa-brands fa-github"></i
               ></a>
               <a
                 href="https://www.instagram.com/vi_encore/"
                 class="footer__social text-decoration-none"
                 target="_blank"
+                title="My Insta"
                 ><i class="fa-brands fa-instagram"></i
               ></a>
+            </div>
+            <div class="footer__mail m-3">
+              <a
+                href="mailto:vikamatuchko772@gmail.com"
+                title="My EMail"
+                class="footer__email fw-bold text-decoration-none text-align-center"
+                >vikamatuchko772@gmail.com</a
+              >
             </div>
           </div>
         </div>

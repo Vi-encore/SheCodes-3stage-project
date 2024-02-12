@@ -1,0 +1,75 @@
+.donateMain {
+  background-color: var(--main-yellow);
+}
+
+.donateMain__item {
+  background-color: var(--main-white-transp);
+  display: flex;
+}
+.donateMain__aboutBtn {
+  background-color: var(--main-blue);
+  color: var(--main-white);
+  padding: 10px 70px;
+  transition: 150ms all ease-in-out;
+  align-self: flex-start;
+}
+
+.donateMain__aboutBtn:hover {
+  background-color: var(--lighter-blue);
+  color: var(--main-white);
+}
+
+.donateMain__containerImg {
+  display: flex;
+  align-items: center;
+}
+
+.donateMain__img {
+  height: 250px;
+}
+
+.donateMain__aboutHead {
+  font-size: var(--h4-size);
+}
+
+@media screen and (max-width: 770px) {
+  .donateMain__item {
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+
+  .donateMain__containerImg {
+    display: flex;
+    width: 100% !important;
+  }
+
+  .donateMain__img {
+    height: 150px;
+    margin: 0 auto !important;
+  }
+
+  .donateMain__aboutFound {
+    width: 100% !important;
+    padding: 30px 0 10px;
+    margin: 0 !important;
+  }
+
+  .donateMain__aboutHead {
+    text-align: center;
+    font-size: var(--h5-size);
+  }
+
+  .donateMain__aboutFound {
+    text-align: center;
+  }
+
+  .donateMain__aboutDescr {
+    text-align: center;
+    font-size: var(--p-sm-size);
+  }
+
+  .donateMain__aboutBtn {
+    font-size: var(--p-sm-size);
+    padding: 10px 50px;
+  }
+}

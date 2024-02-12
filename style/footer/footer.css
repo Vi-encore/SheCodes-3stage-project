@@ -48,3 +48,20 @@
   color: var(--main-yellow);
   transform: scale(115%);
 }
+
+.footer__email {
+  font-size: var(--h5-size);
+  color: var(--lightest-blue);
+  transition: all 150ms ease-in-out;
+}
+
+.footer__email:hover,
+.footer__email:active {
+  color: var(--main-yellow);
+}
+
+@media screen and (max-width: 560px) {
+  .footer__email {
+    font-size: var(--p-md-size);
+  }
+}

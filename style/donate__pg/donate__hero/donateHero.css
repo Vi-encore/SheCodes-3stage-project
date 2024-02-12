@@ -1,0 +1,86 @@
+.donate__hero {
+  background-image: linear-gradient(
+      90deg,
+      var(--bg-transp-color) 0%,
+      var(--bg-transp-color) 100%
+    ),
+    url(/img/donate-hero.jpeg);
+  background-size: cover;
+}
+
+.donate__header {
+  text-align: center;
+  color: var(--main-white);
+  font-size: var(--h4-size);
+  font-weight: 800;
+}
+
+.donate__about {
+  text-align: center;
+  color: var(--main-white);
+  font-size: var(--p-normal);
+}
+/* 
+.donate__btn {
+  width: 170px;
+  font-weight: 600;
+  border: none;
+  background-color: var(--main-yellow);
+  color: var(--main-blue);
+}
+
+.donate__btn:hover {
+  background-color: #e0e271;
+} */
+
+@media screen and (max-width: 1000px) {
+  .donate__hero {
+    background-image: linear-gradient(
+        90deg,
+        var(--bg-transp-color) 0%,
+        var(--bg-transp-color) 100%
+      ),
+      url(/img/donate-hero-md.jpeg);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .donate__hero {
+    background-image: linear-gradient(
+        90deg,
+        var(--bg-transp-color) 0%,
+        var(--bg-transp-color) 100%
+      ),
+      url(/img/donate-hero-sm.jpeg);
+  }
+
+  .donate__header {
+    width: 100% !important;
+  }
+
+  .donate__about {
+    /* text-align: justify; */
+    font-size: var(--p-sm-size);
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .donate__hero {
+    background-image: linear-gradient(
+        90deg,
+        var(--bg-transp-color) 0%,
+        var(--bg-transp-color) 100%
+      ),
+      url(/img/donate-hero-xs.jpeg);
+  }
+
+  .donate__header {
+    font-size: var(--h5-size);
+  }
+
+  .donate__about {
+    /* text-align: justify; */
+    font-size: var(--p-sm-size);
+  }
+}
