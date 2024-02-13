@@ -36,6 +36,7 @@
   /* font-weight: 700; */
   color: var(--main-black);
   transition: all 250ms ease-in-out;
+  overflow-y: hidden;
 }
 
 .footer__social:hover,
