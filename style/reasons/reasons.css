@@ -16,6 +16,7 @@
 .reasons__icon i {
   font-size: var(--h5-size);
   color: var(--main-blue);
+  overflow-y: hidden;
   transition: 150ms all ease-in-out;
 }
 
